@@ -1,0 +1,115 @@
+.footer{
+    margin-top: 50px;
+    padding: 10px;
+}
+.footer .body{
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 60px 80px;
+    background-color:#6E98A6;
+}
+
+.footer .body .footer-col{
+    display: flex;
+}
+
+.footer .body .footer-col .column1{
+    width: 30%;
+}
+
+.footer .body .footer-col .column1 .img img{
+    height: 70px;
+}
+
+.footer .body .footer-col .column1 p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    width: 75%;
+    /* or 150% */
+    color: #FFFFFF;
+}
+.footer .body .footer-col .column2{
+    width: 50%;
+}
+.footer .body .footer-col .column2{
+    display: flex;
+}
+
+.footer .body .footer-col .column2 .column2-row1 .footer-title,
+.footer .body .footer-col .column2 .column2-row2 .footer-title,
+.footer .body .footer-col .column2 .column2-row3 .footer-title{
+
+    font-family: Open Sans;
+    font-style: normal;
+
+    font-size: 18px;
+    line-height: 26px;
+    /* or 200% */
+    color: #FFFFFF;
+}
+.footer .body .footer-col .column2 .column2-row1{
+    font-weight: bold;
+    width: 25%;
+}
+.footer .body .footer-col .column2 .column2-row2{
+    width: 35%;
+}
+.footer .body .footer-col .column2 .column2-row3{
+    width: 40%;
+}
+.footer .body .footer-col .column2 .column2-row2 .footer-title,
+.footer .body .footer-col .column2 .column2-row3 .footer-title{
+
+    font-family: Open Sans;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 200% */
+    color: #FFFFFF;
+}
+/* font-style: normal; */
+
+
+/* column3 */
+.footer .body .footer-col .column3{
+    width: 20%;
+    padding: -14px 0px;
+}
+.footer .body .footer-col .column3 h1{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+
+color: #FFFFFF;
+}
+.footer .body .footer-col .column3 p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.footer .body .footer-col .column3 .input{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.footer .body .footer-col .column3 input{
+   background-color: rgba(255, 0, 0, 0);
+   border: none;
+}
+.footer .body .footer-col .column3 input::placeholder{
+   color: white;
+}

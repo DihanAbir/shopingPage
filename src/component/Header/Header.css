@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+}
+.header .logo img{
+    height: 60px;
+}
+.header .nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 6rem;
+    
+}
+.header .nav ul li{
+    padding: 0px 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #6E98A6;
+    transition: 0.2s ease-in-out;
+}
+.header .nav ul li:hover{
+    padding: 0px 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #DAD398;
+}
+
+.header .find {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+    border-bottom: 1px solid #6E98A6;
+    height: 35px;
+    margin-top: 12px;
+}
+.header .find p{
+    margin-left: 20px;
+    color: #6E98A6;
+
+}
+.header .find input{
+    padding: 0px;
+    height: 28px;
+    border: none;
+    
+}
+.header .profile {
+    display: flex;
+    align-items: center;
+}
+.header .profile p{
+
+    margin: 0px 15px;
+    justify-content: space-between;
+}

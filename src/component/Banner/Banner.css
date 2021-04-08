@@ -1,0 +1,65 @@
+.mainBanner{
+    display: flex;
+}
+.mainBanner .banner-column{
+    width: 50%;
+    height: 65vh;
+}
+.mainBanner .banner-column .img{
+    background-image: url("../../assets/Rectangle 3.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+.banner-left{
+    background-color: var(--primary-color);
+    padding:0px 64px 0px 30px;
+
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.banner-left h2{
+    color: var(--white);
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 56px;
+    width: 65%;
+}
+.bannerSpan{
+    font-weight: lighter;
+}
+.banner-left p{
+    width: 80%;
+    color: var(--white);
+    margin-top: 20px!important;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    word-spacing: 2px;
+}
+
+.banner-left .coverImage img{
+    height: 50%;
+    width: 30%;
+    
+
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+
+}
+.banner-btn{
+    margin-top: 50px;
+
+}

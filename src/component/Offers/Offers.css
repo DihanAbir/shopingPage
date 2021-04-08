@@ -1,0 +1,41 @@
+
+.Offer .Column{
+    display: flex;
+    margin-bottom: 40px;
+}
+.Offer .Column .left, .Offer .Column .right{
+    width: 50%;
+    height: 95vh;
+    /* padding: 30px; */
+}
+.Offer .Column .right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.right1{
+    background: url("../../assets/Group 3.png");
+    height: 45%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.right2{
+    background: url("../../assets/Rectangle 7.png");
+    height: 45%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.leftImage{
+    background: url("../../assets/Group 4.png");
+    height: 97%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+
+    margin-left: 20px;
+}

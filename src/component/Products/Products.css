@@ -1,0 +1,120 @@
+.product-section{
+    position: relative;
+}
+.header h1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 56px;
+
+    text-align: center;
+    color: var(--primary-color);
+}
+.header p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    text-align: center;
+    color: var(--primary-background);
+}
+
+/* top img */
+.topimg img{
+    height: 350px;
+    position: absolute;
+    top: 98px;
+    left: 20px;
+}
+
+/* top img */
+.bottomimg img{
+    height: 200px;
+    position: absolute;
+    bottom: 45%;
+    right: 20px;
+}
+
+/* slider  */
+
+/* button style  */
+.kGrYtS {
+    display: none!important;
+}
+.bSWeAW {
+    background-color: #6E98A6!important;
+    color: #fff!important;
+}
+
+
+/* button style  */
+
+.slider{
+    display: flex;
+}
+
+.slider .sliderColumn{
+    margin: 30px 0px;
+    padding: 40px;
+    z-index: 11111;
+
+}
+/* .slider .sliderColumn .img {
+
+} */
+.slider .sliderColumn .img img{
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.slider .sliderColumn h4{
+    margin: 10px 0px!important;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: var(--primary-color);
+}
+.slider .sliderColumn p{
+    margin: 5px 0px 10!important;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: var(--primary-color);
+}
+.slider .sliderColumn .price{
+    display: flex;
+    margin-top: -20px;
+}
+.slider .sliderColumn .price .currentPrice{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: var(--secondary-color);
+}
+.slider .sliderColumn .price .oldPrice{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: grey;
+}
+.slider .sliderColumn u{
+    margin: 0px;
+}
