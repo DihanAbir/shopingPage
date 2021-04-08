@@ -6,7 +6,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import "./Footer.css";
 import logo from "../../assets/Logo Footer.png";
@@ -81,7 +81,11 @@ function Footer() {
                 <FontAwesomeIcon icon={faArrowRight} />{" "}
               </p>
             </div>
-            <p> mail@example.com </p>
+            <p>
+              {" "}
+              <FontAwesomeIcon icon={faEnvelope} />
+              <span className="p-2">mail@example.com</span>
+            </p>
           </div>
         </div>
       </div>
