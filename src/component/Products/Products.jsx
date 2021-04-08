@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 
 // custome imports
 import "./Products.css";
-import products from "../../Data/Products";
+import { products, products1 } from "../../Data/Products";
 import topImage from "../../assets/Group-1.png";
 import bottomImage from "../../assets/Group.png";
 
@@ -14,6 +14,7 @@ function Products() {
       ;{/* header  */}
       <div className="header">
         <h1>Meet our best selling products</h1>
+        <br />
         <p>
           “Best premium laxarious Brand authentic product always available for
           you”
@@ -31,10 +32,10 @@ function Products() {
               <div className="img">
                 <img src={product.img} alt="" />
               </div>
-              <h4>De Rose Gold Perfume</h4>
-              <p>Floral Green fragrance for women</p>
+              <h4>{product.name}</h4>
+              <p>{product.title}</p>
               <div className="price">
-                <p className="currentPrice">$10.00</p>
+                <p className="currentPrice">${product.newPrice}</p>
                 <p
                   style={{
                     marginLeft: "20px",
@@ -42,7 +43,7 @@ function Products() {
                   }}
                   className="oldPrice"
                 >
-                  $12.00
+                  ${product.oldPrice}
                 </p>
               </div>
               <u>
@@ -60,7 +61,7 @@ function Products() {
       <div className="slider container">
         {/* <Carousel responsive={responsive}> */}
         <Carousel itemsToShow={3} enableAutoPlay={false} autoPlaySpeed={7000}>
-          {products.map((product) => (
+          {products1.map((product) => (
             <div className="sliderColumn">
               <div className="img">
                 <img src={product.img} alt="" />

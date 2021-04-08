@@ -16,6 +16,12 @@
 .footer .body .footer-col .column1{
     width: 30%;
 }
+.footer .body .footer-col .column1 .logo {
+  display: flex;
+}
+.footer .body .footer-col .column1 .logo h2{
+  margin-right: 15px!important;
+}
 
 .footer .body .footer-col .column1 .img img{
     height: 70px;
@@ -81,14 +87,14 @@
 }
 .footer .body .footer-col .column3 h1{
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .footer .body .footer-col .column3 p{
     font-family: Open Sans;
@@ -98,18 +104,22 @@ color: #FFFFFF;
     line-height: 25px;
     /* identical to box height */
     
-    
     color: #FFFFFF;
 }
 .footer .body .footer-col .column3 .input{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(255, 255, 255);
+    
 }
 .footer .body .footer-col .column3 input{
+    outline: none;
    background-color: rgba(255, 0, 0, 0);
    border: none;
 }
+
+
+
 .footer .body .footer-col .column3 input::placeholder{
    color: white;
 }

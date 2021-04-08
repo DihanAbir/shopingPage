@@ -1,14 +1,14 @@
 import React from "react";
 
 import "./Testimonial.css";
-import headphone from "../../assets/Rectangle 16.png";
+
 import LogoName from "../../assets/left-quote.svg";
 
-function SingleSliderComp() {
+function SingleSliderComp({ image }) {
   return (
     <div className="singleSLider">
       <div className="img">
-        <img src={headphone} alt="" />
+        <img src={image} alt="" />
       </div>
 
       <div className="over-img1 over-img">

@@ -5,6 +5,9 @@
 *{
     font-family: 'Playfair Display', serif;
 }
+.p-2{
+    padding: 0px 10px;
+}
 :root{
     --primary-color: #6E98A6;
     --secondary-color: #ca513c;
@@ -32,4 +35,7 @@
     border-color: transparent;
     color: var(--white);
     padding: 10px 30px;
+}
+.btn-primary:hover{
+    background-color: rgb(37, 37, 37);
 }
